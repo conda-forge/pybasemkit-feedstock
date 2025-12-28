@@ -1,5 +1,5 @@
 {% set name = "pybasemkit" %}
-{% set version = "0.1.7" %}
+{% set version = "0.1.8" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pybasemkit-{{ version }}.tar.gz
-  sha256: d08861acd1a98b902678cf51faf5db839ee1a29b6c5835d456b2302f5c16761d
+  sha256: 9ce8c3d2656811899808f9e0ca04f239f0659dab686f4cbba356e65393722eeb
 
 build:
   noarch: python
